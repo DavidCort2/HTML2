@@ -70,6 +70,7 @@ body {
 
 #menu a:hover{
     background: #01B1EA;
+<<<<<<< HEAD
 }
 
 #content {
@@ -107,4 +108,6 @@ body {
     font-weight: bold;
     background: #e1e1e1;
     border: 2px solid #01B1EA;
+=======
+>>>>>>> ccf0c6a081efd7980f03312f07fa29d9d181e636
 }
