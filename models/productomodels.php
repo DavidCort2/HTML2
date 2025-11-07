@@ -1,6 +1,6 @@
 <?php
 
-    class Productos{
+    class Producto{
         private $id_producto;
         private $nombre_producto;
         private $descripcion;
@@ -74,6 +74,9 @@
         function setImagen($imagen){
             $this->imagen = $imagen;
         }
-
+        public function getAll(){
+            $productos = $this->db->query("SELECT * FROM t_productos ORDER BY id_producto DESC;");
+            return $productos;
+        }
     }
 ?>

@@ -1,4 +1,4 @@
-<?php
+<php
 
     class Categoria{
         private $id;
@@ -8,12 +8,13 @@
 
         public function __construct()
         {
-            $this -> db = Database::connect();
+            $this-> db = Database::connect();
         }
 
         function getId(){
             return $this->id;
         }
+
         function getNombre(){
             return $this->nombre;
         }
